@@ -1,0 +1,77 @@
+html {
+  padding: 20px;
+  min-width: 500px;
+  background-color: #f1b33e;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.controls {
+  display: block;
+}
+
+#heading {
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  color: #000;
+  user-select: none;
+}
+
+#switch {
+  width: 64px;
+  height: 30px;
+  border-radius: 9999px;
+  background-color: #737373;
+  transition: background-color ease-in-out 0.25s;
+  cursor: pointer;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+}
+
+#switch.enabled {
+  background-color: #748800;
+}
+
+#switch > #handle {
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  border-radius: 50%;
+  pointer-events: none;
+  position: relative;
+  top: 3px;
+  left: 3px;
+  transition: left ease-in-out 0.25s;
+}
+
+#switch.enabled > #handle {
+  left: 37px;
+}
+
+#list-element {
+  margin-top: 10px;
+}
+
+#list-element > input, #add-name-element > input {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 7px;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+}
+
+label {
+  margin-right: 5px;
+}
+
+#add-name-element {
+  margin-top: 20px;
+}
+
+#list-element > input[type=button], #add-name-element > input[type=button] {
+  cursor: pointer;
+}

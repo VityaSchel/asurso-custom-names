@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Кастомные названия предметов для АСУ РСО</title>
+    <link rel="stylesheet" href="popup-style.css">
+  </head>
+  <body>
+    <div class="controls" align="center">
+      <div id="switch" class="enabled" align="left">
+        <div id="handle"></div>
+      </div>
+      <h1 id="heading">Выключено</h1>
+    </div>
+    <div id="names-list">
+    </div>
+    <div id="add-name-element">
+      <input placeholder="Название предмета" id="subject-name"/>
+      <label>-></label>
+      <input placeholder="Кастомное название" id="subject-custom-name"/>
+      <input type="button" id="add" value="Добавить"/>
+    </div>
+    <p>Не забудьте обновить страницу</p>
+    <script type="text/javascript" src="popup-script.js"></script>
+  </body>
+</html>
