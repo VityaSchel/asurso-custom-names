@@ -6,7 +6,7 @@
 **[source.crx](/source.crx)** — запакованное расширение в crx файл\
 **[/source/](/source/)** — папка с исходным кодом, именно ее стоит добавить в chrome как распакованное расширение
 
-![Скриншот 1](https://user-images.githubusercontent.com/59040542/98934740-faea9180-24fb-11eb-8356-057f36e7c696.png)
-![Скриншот 2](https://user-images.githubusercontent.com/59040542/98934746-fcb45500-24fb-11eb-8631-bc138566669e.png)
+![Скриншот 1](https://user-images.githubusercontent.com/59040542/104459326-06bf0680-55c6-11eb-9178-175a1dc09ccd.png)
+![Скриншот 2](https://user-images.githubusercontent.com/59040542/104459345-0d4d7e00-55c6-11eb-9b11-c7aab2294b9d.png)
 
 Больше и не знаю что написать. Не рекомендую устанавливать на школьные компьютеры)
